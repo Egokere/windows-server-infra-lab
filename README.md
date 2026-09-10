@@ -12,4 +12,4 @@ Deploying a local hybrid enterprise core network using Windows Server 2025 on VM
 - [ ] Step 6: Group Policy Object (GPO) Building & Linking
 - [ ] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [ ] Step 8: Network Diagram Finalization
-  [ ] testing
+      
