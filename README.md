@@ -12,7 +12,10 @@ This project demonstrates the deployment and administration of an isolated, ente
 - [x] Step 6: Group Policy Object (GPO) Building & Linking
 - [x] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [x] Step 8: Network Diagram Finalization
-      
+
+
+      <img width="3608" height="4032" alt="image" src="https://github.com/user-attachments/assets/504fa90c-a76b-4c14-a8fb-014e0073e74c" />
+
 
 ### Core Architectural Blueprint
 * **Operating System:** Windows Server 2025 Evaluation (Desktop Experience)
