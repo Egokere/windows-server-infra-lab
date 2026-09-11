@@ -29,9 +29,9 @@ This project demonstrates the deployment and administration of an isolated, ente
 * Promoted `DC01` to a root Forest Domain Controller to establish a centralized authentication boundary.
 * Built a standardized corporate hierarchy utilizing Organizational Units (OUs) to segregate management boundaries:
 
-  corp.local
-  ---> CorpCompany (Master OU):
-        .IT (Administrative Profiles)
+  #corp.local
+  #---> CorpCompany (Master OU):
+  #IT (Administrative Profiles)
         .HR (Human Resources Personnel)
         .Sales (Sales Personnel Accounts)
   
