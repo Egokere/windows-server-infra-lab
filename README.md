@@ -13,8 +13,8 @@ This project demonstrates the deployment and administration of an isolated, ente
 - [x] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [x] Step 8: Network Diagram Finalization
 
+<img width="3608" height="4032" alt="image" src="https://github.com/user-attachments/assets/a8d0bb2f-afb8-4dac-b7c2-7f7f7b717858" />
 
-      <img width="3608" height="4032" alt="image" src="https://github.com/user-attachments/assets/504fa90c-a76b-4c14-a8fb-014e0073e74c" />
 
 
 ### Core Architectural Blueprint
