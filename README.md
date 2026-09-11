@@ -13,7 +13,7 @@ This project demonstrates the deployment and administration of an isolated, ente
 - [x] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [x] Step 8: Network Diagram Finalization
 
-<img width="3608" height="4032" alt="image" src="https://github.com/user-attachments/assets/a8d0bb2f-afb8-4dac-b7c2-7f7f7b717858" />
+
 
 
 
@@ -55,5 +55,7 @@ This project demonstrates the deployment and administration of an isolated, ente
   * **User Configuration -> Administrative Templates -> Control Panel:** Enabled "Prohibit access to Control Panel and PC settings".
   * **User Configuration -> Administrative Templates -> Desktop:** Enabled "Remove Recycle Bin icon from desktop".
 * **Targeting:** Explicitly linked the GPO onto the `Sales` OU node to verify inheritance mechanics across isolated departments.
+
+<img width="691" height="730" alt="image" src="https://github.com/user-attachments/assets/e510d4c6-40b3-477a-af8b-88c89f0f0382" />
 
 
