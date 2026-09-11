@@ -28,13 +28,13 @@ This project demonstrates the deployment and administration of an isolated, ente
 ### 1. Active Directory Domain Services (AD DS)
 * Promoted `DC01` to a root Forest Domain Controller to establish a centralized authentication boundary.
 * Built a standardized corporate hierarchy utilizing Organizational Units (OUs) to segregate management boundaries:
-  ```text
+  
   corp.local
   └── CorpCompany (Master OU)
-      |__ IT (Administrative Profiles)
-      ├── HR (Human Resources Personnel)
-      └── Sales (Sales Personnel Accounts)
-  ```
+      . IT (Administrative Profiles)
+      . HR (Human Resources Personnel)
+      . Sales (Sales Personnel Accounts)
+  
 * Seeded directory nodes with mock enterprise user identities configured with standard naming formats (e.g., `jdoe@corp.local`).
 
 ### 2. Centralized Name Resolution (DNS)
