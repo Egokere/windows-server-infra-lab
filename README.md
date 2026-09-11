@@ -53,7 +53,4 @@ This project demonstrates the deployment and administration of an isolated, ente
   * **User Configuration -> Administrative Templates -> Desktop:** Enabled "Remove Recycle Bin icon from desktop".
 * **Targeting:** Explicitly linked the GPO onto the `Sales` OU node to verify inheritance mechanics across isolated departments.
 
----
 
-## Technical Validation Scenarios & Real-World Fixes
-*(See the accompanying lab documentation for explicit walkthroughs regarding client baseline testing, nslookup resolution profiles, and Group Policy inheritance validation summaries).*
