@@ -31,7 +31,7 @@ This project demonstrates the deployment and administration of an isolated, ente
   ```text
   corp.local
   └── CorpCompany (Master OU)
-      ├── IT (Administrative Profiles)
+      |__ IT (Administrative Profiles)
       ├── HR (Human Resources Personnel)
       └── Sales (Sales Personnel Accounts)
   ```
