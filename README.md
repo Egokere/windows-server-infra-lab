@@ -13,8 +13,7 @@ This project demonstrates the deployment and administration of an isolated, ente
 - [x] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [x] Step 8: Network Diagram Finalization
 
-
-
+<img width="3692" height="4004" alt="image" src="https://github.com/user-attachments/assets/48e78073-7f3f-44bb-80a7-7817dfae7e73" />
 
 
 ### Core Architectural Blueprint
@@ -56,6 +55,6 @@ This project demonstrates the deployment and administration of an isolated, ente
   * **User Configuration -> Administrative Templates -> Desktop:** Enabled "Remove Recycle Bin icon from desktop".
 * **Targeting:** Explicitly linked the GPO onto the `Sales` OU node to verify inheritance mechanics across isolated departments.
 
-<img width="691" height="730" alt="image" src="https://github.com/user-attachments/assets/e510d4c6-40b3-477a-af8b-88c89f0f0382" />
+
 
 
