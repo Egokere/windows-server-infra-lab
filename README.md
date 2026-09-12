@@ -31,11 +31,11 @@ This project demonstrates the deployment and administration of an isolated, ente
 
   ## corp.local
   ## ---> CorpCompany (Master OU):
-        IT (Administrative Profiles)
-        HR (Human Resources Personnel)
-        Sales (Sales Personnel Accounts)
+  ## IT (Administrative Profiles)
+  ## HR (Human Resources Personnel)
+  ## Sales (Sales Personnel Accounts)
   
-* Seeded directory nodes with mock enterprise user identities configured with standard naming formats (e.g., `jdoe@corp.local`).
+*  Filled directory with user identities. Example: Dsalvatore for user: Damon Salvatore).
 
 ### 2. Centralized Name Resolution (DNS)
 * **Forward Lookup Zones:** Implemented manual static internal host mapping records to ensure immediate application routing resolution (e.g., `app01.corp.local` -> `192.168.10.50`).
