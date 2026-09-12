@@ -13,8 +13,6 @@ This project demonstrates the deployment and administration of an isolated, ente
 - [x] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [x] Step 8: Network Diagram Finalization
 
-<img width="3692" height="4004" alt="image" src="https://github.com/user-attachments/assets/48e78073-7f3f-44bb-80a7-7817dfae7e73" />
-
 
 ### Core Architectural Blueprint
 * **Operating System:** Windows Server 2025 Evaluation (Desktop Experience)
@@ -57,4 +55,5 @@ This project demonstrates the deployment and administration of an isolated, ente
 
 
 
+<img width="3692" height="4004" alt="image" src="https://github.com/user-attachments/assets/1e03633d-d240-4c36-aa45-e03be6129934" />
 
