@@ -34,7 +34,7 @@ This project demonstrates the deployment and administration of an isolated, ente
   * HR (Human Resources Personnel)
   * Sales (Sales Personnel Accounts)
   
-**  Filled directory with user identities and standard usernames. Example: Dsalvatore for user: Damon Salvatore).
+**  Filled directory with user identities and standard usernames. Example: Dsalvatore for user: Damon Salvatore.
 
 ### 2. Centralized Name Resolution (DNS)
 * **Forward Lookup Zones:** Implemented manual static internal host mapping records to ensure immediate application routing resolution (e.g., `app01.corp.local` -> `192.168.10.50`).
