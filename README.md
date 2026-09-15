@@ -13,6 +13,9 @@ This project demonstrates the deployment and administration of an isolated, ente
 - [x] Step 7: Incident Simulation (Break & Fix Troubleshooting)
 - [x] Step 8: Network Diagram Finalization
 
+      
+<img width="5408" height="4260" alt="image" src="https://github.com/user-attachments/assets/fc66827b-1f08-48e7-ae32-2c49863ba92f" />
+
 
 ### Core Architectural Blueprint
 * **Operating System:** Windows Server 2025 Evaluation (Desktop Experience)
@@ -37,13 +40,13 @@ This project demonstrates the deployment and administration of an isolated, ente
 **  Filled directory with user identities and standard usernames. Example: Dsalvatore for user: Damon Salvatore.
 
 ### 2. Centralized Name Resolution (DNS)
-* **Forward Lookup Zones:** Implemented manual static internal host mapping records to ensure immediate application routing resolution (e.g., `app01.corp.local` -> `192.168.10.50`).
+* **Forward Lookup Zones:** Implemented manual static internal host mapping records to ensure immediate application routing resolution
 * **Reverse Lookup Zones:** Established a reverse pointer zone matching the `192.168.10.X` pointer format to accommodate local system troubleshooting and security auditing.
 
 ### 3. Automated IP Distribution (DHCP)
 * Deployed an authorized DHCP pool named `CorpClientPool` covering the `192.168.10.100` to `192.168.10.200` range.
 * Configured an initial exclusion pocket (`192.168.10.100` to `192.168.10.105`) to safeguard future local static infrastructure against network IP conflicts.
-* Injected structural scope parameters instructing clients to route through default exit point `192.168.10.1` and query `192.168.10.10` for domain lookups.
+* Added structural scope parameters instructing clients to route through default exit point `192.168.10.1` and query `192.168.10.10` for domain lookups.
 
 ### 4. Group Policy Object Enforcements (GPO)
 * Designed a custom policy named `Desktop Restrictions Policy` targeting end-user workspaces.
@@ -54,5 +57,4 @@ This project demonstrates the deployment and administration of an isolated, ente
 
 
 
-<img width="3692" height="4004" alt="image" src="https://github.com/user-attachments/assets/1e03633d-d240-4c36-aa45-e03be6129934" />
 
