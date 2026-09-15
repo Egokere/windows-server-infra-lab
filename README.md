@@ -59,6 +59,8 @@ The goal of this project is to develop practical systems and network administrat
 * Integrated additional VM clients to the active network. configuring network adapters to engage default gateway (OPNsense) and DC01
 * Configured Machines to only utilize the DHCP in my corp.local network for DHCP lease 
 
+---
+
 ### Troubleshooting Example
 
 During initial configuration, the **Windows client** was moved from the VMware NAT network to the LAB-internal network.
@@ -91,7 +93,9 @@ Successful DNS resolution
 Successful Internet connectivity
 Successful communication with the lab's domain DNS infrastructure
 
+
 ### **Project Status**
+---
 ### **Completed**
  VMware virtual environment
  OPNsense installation
@@ -109,6 +113,8 @@ Successful communication with the lab's domain DNS infrastructure
  Ubuntu network connectivity testing
  DNS validation from Ubuntu
  
+ ---
+ 
 ### **Planned**
  Join Windows client to corp.local
  Join Ubuntu client to Active Directory
@@ -118,6 +124,8 @@ Successful communication with the lab's domain DNS infrastructure
  Create additional enterprise GPOs
  Document troubleshooting scenarios
  Expand the environment with additional infrastructure services
+
+ ---
  
 ### **Project Goal**:
 
