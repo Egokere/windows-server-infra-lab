@@ -1,7 +1,7 @@
 # Windows Server & Active Directory Core Infrastructure Lab
 
 ## Project Overview
-This project demonstrates the deployment and administration of an isolated, enterprise-grade core network infrastructure built natively on a local hypervisor. The goal of this lab was to transition from an unmanaged workgroup environment to a centralized identity, security, and resource management framework using modern Microsoft infrastructure services.
+Built a virtualized enterprise IT environment using VMware, OPNsense, Windows Server 2025, Active Directory, DNS, and DHCP to simulate a small corporate network. Designed a segmented network architecture with a dedicated WAN connection and isolated internal LAN, configured OPNsense as the network gateway/firewall, and deployed a Windows Server domain controller providing centralized identity, DNS, and DHCP services
 
 ## Progress Tracking
 - [x] Step 1: Install Windows Server 2025 Evaluation VM
@@ -17,19 +17,19 @@ This project demonstrates the deployment and administration of an isolated, ente
 <img width="5408" height="4260" alt="image" src="https://github.com/user-attachments/assets/fc66827b-1f08-48e7-ae32-2c49863ba92f" />
 
 
-### Core Architectural Blueprint
+### Blueprint
 * **Operating System:** Windows Server 2025 Evaluation (Desktop Experience)
 * **Hypervisor Platform:** VMware Workstation Pro
-* **Root Domain Boundary:** `corp.local`
-* **Network Space / Subnet:** `192.168.10.0 /24`
-* **Primary Domain Controller:** `DC01` (`192.168.10.10`)
+* **Root Domain Boundary:** corp.local
+* **Network Space / Subnet:** 192.168.10.0 /24
+* **Primary Domain Controller:** DC01 (192.168.10.10)
 
 ---
 
 ## Implemented Services & Configurations
 
 ### 1. Active Directory Domain Services (AD DS)
-* Promoted `DC01` to a root Forest Domain Controller to establish a centralized authentication boundary.
+* Promoted **DC01** to a root Forest Domain Controller to establish a centralized authentication boundary.
 * Built a standardized corporate hierarchy utilizing Organizational Units (OUs) to segregate management boundaries:
 ## corp.local
  * CorpCompany (Master OU):
@@ -41,19 +41,19 @@ This project demonstrates the deployment and administration of an isolated, ente
 
 ### 2. Centralized Name Resolution (DNS)
 * **Forward Lookup Zones:** Implemented manual static internal host mapping records to ensure immediate application routing resolution
-* **Reverse Lookup Zones:** Established a reverse pointer zone matching the `192.168.10.X` pointer format to accommodate local system troubleshooting and security auditing.
+* **Reverse Lookup Zones:** Established a reverse pointer zone matching the 192.168.10.X pointer format to accommodate local system troubleshooting and security auditing.
 
 ### 3. Automated IP Distribution (DHCP)
-* Deployed an authorized DHCP pool named `CorpClientPool` covering the `192.168.10.100` to `192.168.10.200` range.
-* Configured an initial exclusion pocket (`192.168.10.100` to `192.168.10.105`) to safeguard future local static infrastructure against network IP conflicts.
-* Added structural scope parameters instructing clients to route through default exit point `192.168.10.1` and query `192.168.10.10` for domain lookups.
+* Deployed an authorized DHCP pool named CorpClientPool covering the 192.168.10.100 to 192.168.10.200 range.
+* Configured an initial exclusion pocket (192.168.10.100 to 192.168.10.105) to safeguard future local static infrastructure against network IP conflicts.
+* Added structural scope parameters instructing clients to route through default exit point 192.168.10.1 and query 192.168.10.10 for domain lookups.
 
 ### 4. Group Policy Object Enforcements (GPO)
-* Designed a custom policy named `Desktop Restrictions Policy` targeting end-user workspaces.
+* Designed a custom policy named Desktop Restrictions Policy targeting end-user workspaces.
 * Enforced localized workplace security policies:
   * **User Configuration -> Administrative Templates -> Control Panel:** Enabled "Prohibit access to Control Panel and PC settings".
   * **User Configuration -> Administrative Templates -> Desktop:** Enabled "Remove Recycle Bin icon from desktop".
-* **Targeting:** Explicitly linked the GPO onto the `Sales` OU node to verify inheritance mechanics across isolated departments.
+* Explicitly linked the GPO onto the Sales OU node to verify inheritance mechanics across isolated departments.
 
 
 
