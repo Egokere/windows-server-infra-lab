@@ -54,12 +54,12 @@ The goal of this project is to develop practical systems and network administrat
 * Explicitly linked the GPO onto the Sales OU node to verify inheritance mechanics across isolated departments.
 
 
-### 5. Client VM machines:
+### 5. Client VM machines
 * Created additional VM clients including Windows 11 and Ubuntu Linux machines
 * Integrated additional VM clients to the active network. configuring network adapters to engage default gateway (OPNsense) and DC01
 * Configured Machines to only utilize the DHCP in my corp.local network for DHCP lease 
 
-## Troubleshooting Example
+### Troubleshooting Example
 
 During initial configuration, the **Windows client** was moved from the VMware NAT network to the LAB-internal network.
 
@@ -76,7 +76,7 @@ This released the previous DHCP lease and requested new network configuration fr
 The client subsequently received an address from the 192.168.10.0/24 lab network.
 Ubuntu Client
 
-**An Ubuntu VM** has been successfully installed and connected to the LAB-internal network.
+### **An Ubuntu VM** has been successfully installed and connected to the LAB-internal network.
 
 Connectivity and DNS were validated using:
 
@@ -84,15 +84,15 @@ ping 192.168.10.1
 ping google.com
 host corp.local
 
-Testing confirmed:
+**Testing confirmed**:
 
 Successful communication with the OPNsense gateway
 Successful DNS resolution
 Successful Internet connectivity
 Successful communication with the lab's domain DNS infrastructure
 
-**Project Status**
-Completed
+### **Project Status**
+### **Completed**
  VMware virtual environment
  OPNsense installation
  WAN/LAN network segmentation
@@ -109,7 +109,7 @@ Completed
  Ubuntu network connectivity testing
  DNS validation from Ubuntu
  
-**Planned**
+### **Planned**
  Join Windows client to corp.local
  Join Ubuntu client to Active Directory
  Create additional AD users and security groups
@@ -119,7 +119,7 @@ Completed
  Document troubleshooting scenarios
  Expand the environment with additional infrastructure services
  
-**Project Goal**:
+### **Project Goal**:
 
 The long-term goal is to expand this environment into a realistic enterprise infrastructure lab covering:
 
