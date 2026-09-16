@@ -12,7 +12,8 @@ The goal of this project is to develop practical systems and network administrat
 
 ## Current Architecture
       
-<img width="5804" height="3728" alt="image" src="https://github.com/user-attachments/assets/33d48c4b-6650-4aab-8586-df1e7698ca0e" />
+<img width="6388" height="4208" alt="image" src="https://github.com/user-attachments/assets/c2b00cce-1912-4466-a904-48ba10402962" />
+
 
 
 ### Blueprint
