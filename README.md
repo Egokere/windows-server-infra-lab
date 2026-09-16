@@ -124,34 +124,30 @@ Successful Internet connectivity
 
 ### **Project Status**
 ---
-### **Completed**
- VMware virtual environment
- OPNsense installation
- WAN/LAN network segmentation
- Windows Server 2025 installation
- Active Directory Domain Services
- corp.local domain
- DNS configuration
- DHCP configuration
- Windows 11 client
- Windows client DHCP validation
- Active Directory OUs
- Group Policy configuration
- Ubuntu installation
- Ubuntu network connectivity testing
- DNS validation from Ubuntu
- 
- ---
- 
-### **Planned**
- Join Windows client to corp.local
- Join Ubuntu client to Active Directory
- Create additional AD users and security groups
- Configure a Windows file server
- Implement NTFS/share permissions
- Create additional enterprise GPOs
- Document troubleshooting scenarios
- Expand the environment with additional infrastructure services
+### **Progress Tracker**
+- [x] VMware virtual environment
+- [x] OPNsense installation
+- [x] WAN/LAN network segmentation
+- [x] Windows Server 2025 installation
+- [x] Active Directory Domain Services
+- [x] corp.local domain
+- [x] DNS configuration
+- [x] DHCP configuration
+- [x] Windows 11 client
+- [x] Windows client DHCP validation
+- [x] Active Directory OUs
+- [x] Group Policy configuration
+- [x] Ubuntu installation
+- [x] Ubuntu network connectivity testing
+- [x] DNS validation from Ubuntu
+- [x] Join Windows client to corp.local
+- [ ] Join Ubuntu client to Active Directory
+- [ ] Create additional AD users and security groups
+- [ ] Configure a Windows file server
+- [ ] Implement NTFS/share permissions
+- [ ] Create additional enterprise GPOs
+- [ ] Document troubleshooting scenarios
+- [ ] Expand the environment with additional infrastructure services
 
  ---
  
