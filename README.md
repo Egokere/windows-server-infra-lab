@@ -57,7 +57,35 @@ The goal of this project is to develop practical systems and network administrat
 ### 5. Client VM machines
 * Created additional VM clients including Windows 11 and Ubuntu Linux machines
 * Integrated additional VM clients to the active network. configuring network adapters to engage default gateway (OPNsense) and DC01
-* Configured Machines to only utilize the DHCP in my corp.local network for DHCP lease 
+* Configured Machines to only utilize the DHCP in my corp.local network for DHCP lease
+* Troubleshot the client so it could communicate with the domain controller
+* Configured a Windows client to join an Active Directory domain
+* Configured and validated domain-based authentication with domain-based user accounts **(so they can now log in to windows client with their individual accounts and passwords)**
+
+---
+Active Directory / Windows Client
+
+* Joined Windows 11 client to corp.local Active Directory domain.
+* Successfully authenticated to the Windows client using domain user credentials.
+* Validated communication between the client and DC01 for domain authentication.
+* Learned the importance of configuring the client to use the domain controller as its DNS server for Active Directory functionality.
+
+
+### On the Windows client:
+
+Settings > System > About > Advanced system settings
+
+Then:
+
+Computer Name > Change
+
+Select: **Domain**
+
+Enter: **corp.local**
+
+Uses my Administrator account to sign in and join the computer to the domain (corp.local).
+
+After the computer restarted, I was able to login with: **username@corp.local**(users from my domain)
 
 ---
 
@@ -91,7 +119,7 @@ host corp.local
 Successful communication with the OPNsense gateway
 Successful DNS resolution
 Successful Internet connectivity
-Successful communication with the lab's domain DNS infrastructure
+
 
 
 ### **Project Status**
