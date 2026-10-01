@@ -142,13 +142,9 @@ Successful Internet connectivity
 - [x] Ubuntu network connectivity testing
 - [x] DNS validation from Ubuntu
 - [x] Join Windows client to corp.local
-- [ ] Join Ubuntu client to Active Directory
-- [ ] Create additional AD users and security groups
-- [ ] Configure a Windows file server
-- [ ] Implement NTFS/share permissions
-- [ ] Create additional enterprise GPOs
-- [ ] Document troubleshooting scenarios
-- [ ] Expand the environment with additional infrastructure services
+- [x] Join Ubuntu client to Active Directory
+- [x] Create additional AD users and security groups
+
 
  ---
  
