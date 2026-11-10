@@ -10,7 +10,7 @@ The goal of this project is to develop practical systems and network administrat
 
 ---
 
-## Current Architecture
+## Architecture
       
 <img width="6388" height="4208" alt="image" src="https://github.com/user-attachments/assets/c2b00cce-1912-4466-a904-48ba10402962" />
 
