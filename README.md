@@ -1,4 +1,4 @@
-# Enterprise Windows & Network Administration Lab
+# Windows 2025 Server Infrastructure Lab
 
 ## Project Overview
 
