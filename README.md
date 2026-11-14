@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a self-built virtualized enterprise IT environment designed to simulate a small corporate network and provide hands-on experience with Windows Server administration, Active Directory, networking, DNS, DHCP, Group Policy, and Linux client connectivity.
+This project is a virtual IT environment designed to simulate a small corporate network and provide hands-on experience with Windows Server administration, Active Directory, networking, DNS, DHCP, Group Policy, and Linux client connectivity.
 
 The environment is built using VMware and OPNsense, with Windows Server 2025 acting as the primary infrastructure server and Windows 11 and Ubuntu systems acting as clients.
 
@@ -144,14 +144,3 @@ Successful Internet connectivity
 - [x] Join Windows client to corp.local
 - [x] Join Ubuntu client to Active Directory
 - [x] Create additional AD users and security groups
-
-
- ---
- 
-### **Project Goal**:
-
-The long-term goal is to expand this environment into a realistic enterprise infrastructure lab covering:
-
-Networking → Windows Administration → Active Directory → Group Policy → Linux → File Services → Security → Cloud Integration
-
-This project is being built incrementally to develop practical skills in systems administration, network administration, infrastructure support, and cloud engineering.
